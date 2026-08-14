@@ -2,6 +2,7 @@
 
 import React from "react";
 import { DocLayout } from "../DocLayout";
+import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
 import { MessageBubble } from "@ai-kit/react";
