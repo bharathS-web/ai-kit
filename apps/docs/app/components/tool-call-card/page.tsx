@@ -5,7 +5,7 @@ import { DocLayout } from "../DocLayout";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
 import { TOCItem } from "../DocTOC";
-import { ToolCallCard } from "@ai-kit/react";
+import { ToolCallCard } from "@inaicode/react";
 
 const TOC: TOCItem[] = [
   { id: "installation", title: "Installation" },

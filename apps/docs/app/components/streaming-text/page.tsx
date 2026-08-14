@@ -5,7 +5,7 @@ import { DocLayout } from "../DocLayout";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
 import { TOCItem } from "../DocTOC";
-import { StreamingText } from "@ai-kit/react";
+import { StreamingText } from "@inaicode/react";
 import { Play } from "lucide-react";
 
 const TOC: TOCItem[] = [

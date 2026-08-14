@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { SystemPromptEditor } from "@ai-kit/react";
+import { SystemPromptEditor } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -80,7 +80,7 @@ export default function SystemPromptEditorPage() {
       <InstallationSection
         componentName="SystemPromptEditor"
         slug="system-prompt-editor"
-        codeSnippet={`import { SystemPromptEditor } from "@ai-kit/react";
+        codeSnippet={`import { SystemPromptEditor } from "@inaicode/react";
 
 <SystemPromptEditor
   value={systemPrompt}

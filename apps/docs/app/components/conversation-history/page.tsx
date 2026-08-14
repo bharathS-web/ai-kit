@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { ConversationHistory, ConversationThread } from "@ai-kit/react";
+import { ConversationHistory, ConversationThread } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -136,7 +136,7 @@ export default function ConversationHistoryPage() {
       <InstallationSection
         componentName="ConversationHistory"
         slug="conversation-history"
-        codeSnippet={`import { ConversationHistory } from "@ai-kit/react";
+        codeSnippet={`import { ConversationHistory } from "@inaicode/react";
 
 <ConversationHistory
   threads={[

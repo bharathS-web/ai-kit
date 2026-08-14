@@ -17,7 +17,7 @@ import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
 import { GithubIcon } from "../Icons";
-import { PromptBox } from "@ai-kit/react";
+import { PromptBox } from "@inaicode/react";
 
 const PROMPTBOX_TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -46,10 +46,10 @@ export default function PromptBoxPage() {
   };
 
   const installCommands = {
-    pnpm: "pnpm add @ai-kit/react",
-    npm: "npm i @ai-kit/react",
-    yarn: "yarn add @ai-kit/react",
-    bun: "bun add @ai-kit/react",
+    pnpm: "pnpm add @inaicode/react",
+    npm: "npm i @inaicode/react",
+    yarn: "yarn add @inaicode/react",
+    bun: "bun add @inaicode/react",
   };
 
   return (

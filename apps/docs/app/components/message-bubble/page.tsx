@@ -5,7 +5,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { MessageBubble } from "@ai-kit/react";
+import { MessageBubble } from "@inaicode/react";
 import { Sparkles, User } from "lucide-react";
 
 const TOC: TOCItem[] = [

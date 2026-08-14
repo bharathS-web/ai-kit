@@ -5,7 +5,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { MessageList, MessageBubble, PromptBox } from "@ai-kit/react";
+import { MessageList, MessageBubble, PromptBox } from "@inaicode/react";
 import { Bot } from "lucide-react";
 
 const TOC: TOCItem[] = [

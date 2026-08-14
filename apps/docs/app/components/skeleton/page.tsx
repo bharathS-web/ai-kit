@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { Skeleton } from "@ai-kit/react";
+import { Skeleton } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -69,7 +69,7 @@ export default function SkeletonPage() {
       <InstallationSection
         componentName="Skeleton"
         slug="skeleton"
-        codeSnippet={`import { Skeleton } from "@ai-kit/react";
+        codeSnippet={`import { Skeleton } from "@inaicode/react";
 
 <Skeleton variant="chat-bubble" />
 <Skeleton variant="tool-card" />`}

@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { SlashCommandMenu, SlashCommandItem } from "@ai-kit/react";
+import { SlashCommandMenu, SlashCommandItem } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -129,7 +129,7 @@ export default function SlashCommandMenuPage() {
       <InstallationSection
         componentName="SlashCommandMenu"
         slug="slash-command-menu"
-        codeSnippet={`import { SlashCommandMenu } from "@ai-kit/react";
+        codeSnippet={`import { SlashCommandMenu } from "@inaicode/react";
 
 <SlashCommandMenu
   commands={[

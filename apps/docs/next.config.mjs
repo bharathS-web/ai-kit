@@ -3,7 +3,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
   // Allows importing the workspace package's source/dist directly
-  transpilePackages: ["@ai-kit/react"],
+  transpilePackages: ["@inaicode/react"],
 
   // Required for GitHub Pages: outputs static HTML/CSS/JS to `out/`
   output: "export",

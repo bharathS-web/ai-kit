@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { CodeBlock } from "@ai-kit/react";
+import { CodeBlock } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -93,7 +93,7 @@ export async function handleRequest(prompt: string) {
       <InstallationSection
         componentName="CodeBlock"
         slug="code-block"
-        codeSnippet={`import { CodeBlock } from "@ai-kit/react";
+        codeSnippet={`import { CodeBlock } from "@inaicode/react";
 
 <CodeBlock
   code="console.log('Hello AI Kit');"

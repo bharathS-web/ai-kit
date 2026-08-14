@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 import { GithubIcon, TwitterXIcon, AiKitLogo } from "./components/Icons";
 import { WindowDots } from "./components/WindowDots";
-import { PromptBox, Thinking, ApprovalCard } from "@ai-kit/react";
+import { PromptBox, Thinking, ApprovalCard } from "@inaicode/react";
 import { useTheme } from "./components/ThemeContext";
 import { CodeBlock } from "./components/CodeBlock";
 
@@ -34,7 +34,7 @@ export default function LandingPage() {
   const [demoStatusMessage, setDemoStatusMessage] = useState("");
 
   const handleCopyInstall = () => {
-    navigator.clipboard.writeText("npm i @ai-kit/react");
+    navigator.clipboard.writeText("npm i @inaicode/react");
     setCopiedCli(true);
     setTimeout(() => setCopiedCli(false), 2000);
   };
@@ -193,7 +193,7 @@ export default function LandingPage() {
               className="flex items-center gap-3 rounded-xl border border-gray-300 bg-white px-4 py-3 text-xs sm:text-sm font-mono text-gray-800 shadow-xs hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800 transition-all active:scale-95"
             >
               <Terminal className="h-4 w-4 text-brand-600" />
-              <span>npm i @ai-kit/react</span>
+              <span>npm i @inaicode/react</span>
               <span className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200">
                 {copiedCli ? (
                   <Check className="h-4 w-4 text-emerald-500" />
@@ -546,7 +546,7 @@ export default function LandingPage() {
             {/* Code */}
             <div className="p-5 sm:p-6 overflow-x-auto">
               <CodeBlock
-                code={`import { PromptBox, Thinking, ApprovalCard } from "@ai-kit/react";
+                code={`import { PromptBox, Thinking, ApprovalCard } from "@inaicode/react";
 
 export default function AIChatPage() {
   return (
@@ -649,7 +649,7 @@ export default function AIChatPage() {
                 <div className="flex max-w-xs items-center justify-between rounded-xl border border-gray-200 bg-white p-1.5 shadow-2xs dark:border-gray-800 dark:bg-gray-900/90 font-mono text-[11px] text-gray-700 dark:text-gray-300">
                   <div className="flex items-center gap-2 pl-2 overflow-hidden">
                     <Terminal className="h-3.5 w-3.5 text-brand-600 shrink-0" />
-                    <span className="truncate">npm i @ai-kit/react</span>
+                    <span className="truncate">npm i @inaicode/react</span>
                   </div>
                   <button
                     onClick={handleCopyInstall}

@@ -39,16 +39,16 @@ export function InstallationSection({
       .toLowerCase();
 
   const pmCommands = {
-    pnpm: cliCommand || `pnpm dlx @ai-kit/cli add ${effectiveSlug}`,
+    pnpm: cliCommand || `pnpm dlx @inaicode/cli add ${effectiveSlug}`,
     npm: cliCommand
       ? cliCommand.replace("pnpm dlx", "npx")
-      : `npx @ai-kit/cli add ${effectiveSlug}`,
+      : `npx @inaicode/cli add ${effectiveSlug}`,
     yarn: cliCommand
       ? cliCommand.replace("pnpm dlx", "yarn dlx")
-      : `yarn dlx @ai-kit/cli add ${effectiveSlug}`,
+      : `yarn dlx @inaicode/cli add ${effectiveSlug}`,
     bun: cliCommand
       ? cliCommand.replace("pnpm dlx", "bunx")
-      : `bunx @ai-kit/cli add ${effectiveSlug}`,
+      : `bunx @inaicode/cli add ${effectiveSlug}`,
   };
 
   const effectiveFiles: FileItem[] =
@@ -59,7 +59,7 @@ export function InstallationSection({
             filename: `${componentName}.tsx`,
             code:
               codeSnippet ||
-              `import { ${componentName} } from "@ai-kit/react";\n\nexport function MyComponent() {\n  return <${componentName} />;\n}`,
+              `import { ${componentName} } from "@inaicode/react";\n\nexport function MyComponent() {\n  return <${componentName} />;\n}`,
           },
         ];
 

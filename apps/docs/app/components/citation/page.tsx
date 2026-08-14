@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { Citation } from "@ai-kit/react";
+import { Citation } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -93,7 +93,7 @@ export default function CitationPage() {
       <InstallationSection
         componentName="Citation"
         slug="citation"
-        codeSnippet={`import { Citation } from "@ai-kit/react";
+        codeSnippet={`import { Citation } from "@inaicode/react";
 
 <Citation
   index={1}

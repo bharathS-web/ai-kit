@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { Tooltip, Button } from "@ai-kit/react";
+import { Tooltip, Button } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -74,7 +74,7 @@ export default function TooltipPage() {
       <InstallationSection
         componentName="Tooltip"
         slug="tooltip"
-        codeSnippet={`import { Tooltip } from "@ai-kit/react";
+        codeSnippet={`import { Tooltip } from "@inaicode/react";
 
 <Tooltip content="Helpful tooltip info" position="top">
   <button>Hover me</button>

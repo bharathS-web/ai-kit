@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { ConfirmDialog } from "@ai-kit/react";
+import { ConfirmDialog } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -118,7 +118,7 @@ export default function ConfirmDialogPage() {
       <InstallationSection
         componentName="ConfirmDialog"
         slug="confirm-dialog"
-        codeSnippet={`import { ConfirmDialog } from "@ai-kit/react";
+        codeSnippet={`import { ConfirmDialog } from "@inaicode/react";
 
 <ConfirmDialog
   isOpen={isOpen}

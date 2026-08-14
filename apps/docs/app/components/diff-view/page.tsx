@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { DiffView } from "@ai-kit/react";
+import { DiffView } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -96,7 +96,7 @@ export default function DiffViewPage() {
       <InstallationSection
         componentName="DiffView"
         slug="diff-view"
-        codeSnippet={`import { DiffView } from "@ai-kit/react";
+        codeSnippet={`import { DiffView } from "@inaicode/react";
 
 <DiffView
   fileName="auth.ts"

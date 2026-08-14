@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { VoiceInputButton } from "@ai-kit/react";
+import { VoiceInputButton } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -110,7 +110,7 @@ export default function VoiceInputButtonPage() {
       <InstallationSection
         componentName="VoiceInputButton"
         slug="voice-input-button"
-        codeSnippet={`import { VoiceInputButton } from "@ai-kit/react";
+        codeSnippet={`import { VoiceInputButton } from "@inaicode/react";
 
 <VoiceInputButton
   state="idle"

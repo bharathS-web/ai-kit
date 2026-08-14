@@ -30,10 +30,10 @@ export default function InstallationPage() {
   const [copiedTailwind, setCopiedTailwind] = useState(false);
 
   const initCommands = {
-    pnpm: "pnpm dlx @ai-kit/cli init",
-    npm: "npx @ai-kit/cli init",
-    yarn: "yarn dlx @ai-kit/cli init",
-    bun: "bunx @ai-kit/cli init",
+    pnpm: "pnpm dlx @inaicode/cli init",
+    npm: "npx @inaicode/cli init",
+    yarn: "yarn dlx @inaicode/cli init",
+    bun: "bunx @inaicode/cli init",
   };
 
   const handleCopyCli = () => {
@@ -163,7 +163,7 @@ export default config;`;
         </div>
 
         <p className="text-xs text-gray-500 dark:text-gray-400">
-          Once initialized, you can add individual components at any time with: <code className="font-mono text-brand-600 font-semibold">{pm === "npm" ? "npx" : pm} @ai-kit/cli add [component-name]</code>
+          Once initialized, you can add individual components at any time with: <code className="font-mono text-brand-600 font-semibold">{pm === "npm" ? "npx" : pm} @inaicode/cli add [component-name]</code>
         </p>
       </section>
 

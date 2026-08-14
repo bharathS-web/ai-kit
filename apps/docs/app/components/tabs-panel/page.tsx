@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { TabsPanel, TabItem } from "@ai-kit/react";
+import { TabsPanel, TabItem } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -127,7 +127,7 @@ export default function TabsPanelPage() {
       <InstallationSection
         componentName="TabsPanel"
         slug="tabs-panel"
-        codeSnippet={`import { TabsPanel } from "@ai-kit/react";
+        codeSnippet={`import { TabsPanel } from "@inaicode/react";
 
 <TabsPanel
   tabs={[

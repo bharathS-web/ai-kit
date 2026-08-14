@@ -16,7 +16,7 @@ ai-kit/
 │               ├── thinking/page.tsx
 │               └── approval-card/page.tsx
 ├── packages/
-│   └── react/                 # the published package: @ai-kit/react
+│   └── react/                 # the published package: @inaicode/react
 │       └── src/
 │           ├── components/
 │           │   ├── PromptBox/

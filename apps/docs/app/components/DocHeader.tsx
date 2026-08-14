@@ -42,7 +42,7 @@ import {
 } from "lucide-react";
 import { useTheme } from "./ThemeContext";
 import { GithubIcon, AiKitLogo } from "./Icons";
-import { Tooltip } from "@ai-kit/react";
+import { Tooltip } from "@inaicode/react";
 
 export interface ComponentSearchItem {
   name: string;

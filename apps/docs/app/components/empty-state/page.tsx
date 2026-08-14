@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { EmptyState, Button } from "@ai-kit/react";
+import { EmptyState, Button } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -86,7 +86,7 @@ export default function EmptyStatePage() {
       <InstallationSection
         componentName="EmptyState"
         slug="empty-state"
-        codeSnippet={`import { EmptyState } from "@ai-kit/react";
+        codeSnippet={`import { EmptyState } from "@inaicode/react";
 
 <EmptyState
   title="No conversation active"

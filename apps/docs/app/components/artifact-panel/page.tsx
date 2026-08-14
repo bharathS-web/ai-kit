@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { ArtifactPanel, CodeBlock } from "@ai-kit/react";
+import { ArtifactPanel, CodeBlock } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -106,7 +106,7 @@ export const pipeline = new Pipeline({
       <InstallationSection
         componentName="ArtifactPanel"
         slug="artifact-panel"
-        codeSnippet={`import { ArtifactPanel } from "@ai-kit/react";
+        codeSnippet={`import { ArtifactPanel } from "@inaicode/react";
 
 <ArtifactPanel
   title="Report.md"

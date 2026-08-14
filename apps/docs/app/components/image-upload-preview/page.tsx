@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { ImageUploadPreview, ImageUploadItem } from "@ai-kit/react";
+import { ImageUploadPreview, ImageUploadItem } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -111,7 +111,7 @@ export default function ImageUploadPreviewPage() {
       <InstallationSection
         componentName="ImageUploadPreview"
         slug="image-upload-preview"
-        codeSnippet={`import { ImageUploadPreview } from "@ai-kit/react";
+        codeSnippet={`import { ImageUploadPreview } from "@inaicode/react";
 
 <ImageUploadPreview
   images={[{ id: "1", url: "/sample.png" }]}

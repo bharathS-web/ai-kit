@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { SuggestedPrompts, SuggestedPromptItem } from "@ai-kit/react";
+import { SuggestedPrompts, SuggestedPromptItem } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -119,7 +119,7 @@ export default function SuggestedPromptsPage() {
       <InstallationSection
         componentName="SuggestedPrompts"
         slug="suggested-prompts"
-        codeSnippet={`import { SuggestedPrompts } from "@ai-kit/react";
+        codeSnippet={`import { SuggestedPrompts } from "@inaicode/react";
 
 <SuggestedPrompts
   prompts={[

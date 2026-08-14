@@ -5,7 +5,7 @@ import { DocLayout } from "../DocLayout";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
 import { TOCItem } from "../DocTOC";
-import { Badge } from "@ai-kit/react";
+import { Badge } from "@inaicode/react";
 import { Sparkles, CheckCircle2 } from "lucide-react";
 
 const TOC: TOCItem[] = [

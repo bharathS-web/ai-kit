@@ -5,7 +5,7 @@ import { Check, Copy, Moon, Sun, Code2, Eye } from "lucide-react";
 import { CodeBlock } from "./CodeBlock";
 import { WindowDots } from "./WindowDots";
 import { useTheme } from "./ThemeContext";
-import { Tooltip } from "@ai-kit/react";
+import { Tooltip } from "@inaicode/react";
 
 interface ComponentPreviewProps {
   title?: string;

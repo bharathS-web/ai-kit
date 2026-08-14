@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { ConnectionStatus } from "@ai-kit/react";
+import { ConnectionStatus } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -81,7 +81,7 @@ export default function ConnectionStatusPage() {
       <InstallationSection
         componentName="ConnectionStatus"
         slug="connection-status"
-        codeSnippet={`import { ConnectionStatus } from "@ai-kit/react";
+        codeSnippet={`import { ConnectionStatus } from "@inaicode/react";
 
 <ConnectionStatus
   status="connected"

@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { TokenUsageBar } from "@ai-kit/react";
+import { TokenUsageBar } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -80,7 +80,7 @@ export default function TokenUsageBarPage() {
       <InstallationSection
         componentName="TokenUsageBar"
         slug="token-usage-bar"
-        codeSnippet={`import { TokenUsageBar } from "@ai-kit/react";
+        codeSnippet={`import { TokenUsageBar } from "@inaicode/react";
 
 <TokenUsageBar
   promptTokens={12000}

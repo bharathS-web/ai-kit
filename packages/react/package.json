@@ -1,7 +1,7 @@
 {
-  "name": "@ai-kit/react",
+  "name": "@inaicode/react",
   "version": "0.1.0",
-  "description": "React components for AI product UIs",
+  "description": "React components for Inai AI product UIs",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",

@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { Toast, Button } from "@ai-kit/react";
+import { Toast, Button } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -129,7 +129,7 @@ export default function ToastPage() {
       <InstallationSection
         componentName="Toast"
         slug="toast"
-        codeSnippet={`import { Toast } from "@ai-kit/react";
+        codeSnippet={`import { Toast } from "@inaicode/react";
 
 <Toast
   variant="success"

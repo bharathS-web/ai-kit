@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { RatingStars } from "@ai-kit/react";
+import { RatingStars } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -82,7 +82,7 @@ export default function RatingStarsPage() {
       <InstallationSection
         componentName="RatingStars"
         slug="rating-stars"
-        codeSnippet={`import { RatingStars } from "@ai-kit/react";
+        codeSnippet={`import { RatingStars } from "@inaicode/react";
 
 <RatingStars
   rating={4}

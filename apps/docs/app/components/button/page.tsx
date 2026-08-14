@@ -5,7 +5,7 @@ import { DocLayout } from "../DocLayout";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
 import { TOCItem } from "../DocTOC";
-import { Button } from "@ai-kit/react";
+import { Button } from "@inaicode/react";
 import { Sparkles, ArrowRight, Trash2 } from "lucide-react";
 
 const TOC: TOCItem[] = [

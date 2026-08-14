@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { RateLimitBanner } from "@ai-kit/react";
+import { RateLimitBanner } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -80,7 +80,7 @@ export default function RateLimitBannerPage() {
       <InstallationSection
         componentName="RateLimitBanner"
         slug="rate-limit-banner"
-        codeSnippet={`import { RateLimitBanner } from "@ai-kit/react";
+        codeSnippet={`import { RateLimitBanner } from "@inaicode/react";
 
 <RateLimitBanner
   limitType="tokens"

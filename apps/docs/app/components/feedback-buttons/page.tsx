@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { FeedbackButtons } from "@ai-kit/react";
+import { FeedbackButtons } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -89,7 +89,7 @@ export default function FeedbackButtonsPage() {
       <InstallationSection
         componentName="FeedbackButtons"
         slug="feedback-buttons"
-        codeSnippet={`import { FeedbackButtons } from "@ai-kit/react";
+        codeSnippet={`import { FeedbackButtons } from "@inaicode/react";
 
 <FeedbackButtons
   onThumbsUp={() => logVote("up")}

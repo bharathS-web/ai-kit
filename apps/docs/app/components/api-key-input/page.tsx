@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { APIKeyInput } from "@ai-kit/react";
+import { APIKeyInput } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -80,7 +80,7 @@ export default function APIKeyInputPage() {
       <InstallationSection
         componentName="APIKeyInput"
         slug="api-key-input"
-        codeSnippet={`import { APIKeyInput } from "@ai-kit/react";
+        codeSnippet={`import { APIKeyInput } from "@inaicode/react";
 
 <APIKeyInput
   provider="openai"

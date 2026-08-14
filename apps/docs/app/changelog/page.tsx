@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { DocLayout } from "../components/DocLayout";
-import { Badge } from "@ai-kit/react";
+import { Badge } from "@inaicode/react";
 import {
   History,
   Sparkles,

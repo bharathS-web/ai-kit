@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { AudioPlayer } from "@ai-kit/react";
+import { AudioPlayer } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -75,7 +75,7 @@ export default function AudioPlayerPage() {
       <InstallationSection
         componentName="AudioPlayer"
         slug="audio-player"
-        codeSnippet={`import { AudioPlayer } from "@ai-kit/react";
+        codeSnippet={`import { AudioPlayer } from "@inaicode/react";
 
 <AudioPlayer
   title="Agent Voice Output"

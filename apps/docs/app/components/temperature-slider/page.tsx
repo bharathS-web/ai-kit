@@ -7,7 +7,7 @@ import { DocLayout } from "../DocLayout";
 import { TOCItem } from "../DocTOC";
 import { ComponentPreview } from "../ComponentPreview";
 import { InstallationSection } from "../InstallationSection";
-import { TemperatureSlider } from "@ai-kit/react";
+import { TemperatureSlider } from "@inaicode/react";
 
 const TOC_ITEMS: TOCItem[] = [
   { id: "installation", title: "Installation" },
@@ -79,7 +79,7 @@ export default function TemperatureSliderPage() {
       <InstallationSection
         componentName="TemperatureSlider"
         slug="temperature-slider"
-        codeSnippet={`import { TemperatureSlider } from "@ai-kit/react";
+        codeSnippet={`import { TemperatureSlider } from "@inaicode/react";
 
 <TemperatureSlider
   value={temp}
