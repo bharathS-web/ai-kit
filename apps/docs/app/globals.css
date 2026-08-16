@@ -22,6 +22,27 @@
     scroll-margin-top: 2rem;
   }
 
+  /* Universal App Theme Text Selection */
+  ::selection {
+    background-color: #4F46E5;
+    color: #FFFFFF;
+  }
+
+  ::-moz-selection {
+    background-color: #4F46E5;
+    color: #FFFFFF;
+  }
+
+  .dark ::selection {
+    background-color: #6366F1;
+    color: #FFFFFF;
+  }
+
+  .dark ::-moz-selection {
+    background-color: #6366F1;
+    color: #FFFFFF;
+  }
+
   /* Universal modern sleek scrollbar */
   * {
     scrollbar-width: thin;
@@ -54,7 +75,7 @@
 
 ::-webkit-scrollbar-thumb:hover,
 *::-webkit-scrollbar-thumb:hover {
-  background: rgba(127, 86, 217, 0.7);
+  background: rgba(79, 70, 229, 0.7);
 }
 
 .dark ::-webkit-scrollbar-thumb,
@@ -65,5 +86,5 @@
 
 .dark ::-webkit-scrollbar-thumb:hover,
 .dark *::-webkit-scrollbar-thumb:hover {
-  background: rgba(168, 85, 247, 0.6);
+  background: rgba(99, 102, 241, 0.6);
 }
