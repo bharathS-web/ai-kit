@@ -2,7 +2,7 @@ import React from "react";
 
 export function GithubIcon({ className = "h-4 w-4" }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -14,13 +14,13 @@ export function GithubIcon({ className = "h-4 w-4" }: { className?: string }) {
 
 export function TwitterXIcon({ className = "h-4 w-4" }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
       <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
     </svg>
   );
 }
 
-export function ReactIcon({ className = "h-6 w-6" }: { className?: string }) {
+export function ReactIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
     <svg className={className} viewBox="-11.5 -10.23174 23 20.46348" fill="none">
       <circle cx="0" cy="0" r="2.05" fill="#61DAFB" />
@@ -33,30 +33,31 @@ export function ReactIcon({ className = "h-6 w-6" }: { className?: string }) {
   );
 }
 
-export function TailwindIcon({ className = "h-6 w-6" }: { className?: string }) {
+export function TailwindIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 24 24" fill="none">
-      <path
-        d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.336 6.182 14.975 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.336 13.382 8.975 12 6.001 12z"
-        fill="#38BDF8"
-      />
+    <svg className={className} viewBox="0 0 24 24" fill="#38BDF8">
+      <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C9.337,13.382,7.976,12,6.001,12z" />
     </svg>
   );
 }
 
-export function TypeScriptIcon({ className = "h-6 w-6" }: { className?: string }) {
+export function TypeScriptIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 24 24" fill="none">
-      <rect width="24" height="24" rx="4" fill="#3178C6" />
-      <path
-        d="M11.75 16.5H10.25V9.75H7.5V8.5H14.5V9.75H11.75V16.5ZM19.25 10.2C19.25 9.15 18.3 8.5 16.8 8.5C15.2 8.5 14.2 9.25 14.2 10.4C14.2 12.5 19.25 11.7 19.25 14.5C19.25 15.85 18.05 16.65 16.65 16.65C15 16.65 13.8 15.7 13.7 14.5H15.15C15.25 15.15 15.8 15.55 16.65 15.55C17.45 15.55 17.85 15.15 17.85 14.5C17.85 12.3 12.8 13.1 12.8 10.3C12.8 9 13.95 7.4 16.7 7.4C18.25 7.4 19.45 8.2 19.5 9.5L19.25 10.2Z"
-        fill="white"
-      />
+    <svg className={className} viewBox="0 0 24 24" fill="#3178C6">
+      <path d="M1.5 0h21l1.5 1.5v21l-1.5 1.5h-21l-1.5-1.5v-21zm10.74 13.53h-3.48v8.97h-2.91v-8.97h-3.48v-2.52h9.87zm10.02 5.07c0 2.4-1.83 3.96-4.71 3.96-1.53 0-3-.42-3.99-1.05l.93-2.31c.78.48 1.95.93 3.03.93 1.23 0 1.83-.54 1.83-1.29 0-.84-.75-1.17-2.19-1.71-2.07-.75-3.33-1.83-3.33-3.69 0-2.34 1.86-3.75 4.47-3.75 1.44 0 2.61.36 3.48.81l-.9 2.25c-.66-.36-1.59-.69-2.58-.69-1.08 0-1.62.48-1.62 1.14 0 .78.78 1.08 2.22 1.62 2.22.84 3.45 1.89 3.45 3.78z" />
     </svg>
   );
 }
 
-export function LucideIcon({ className = "h-6 w-6" }: { className?: string }) {
+export function NpmIcon({ className = "h-5 w-5" }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="#CB3837">
+      <path d="M1.5 0h21l1.5 1.5v21l-1.5 1.5h-21l-1.5-1.5v-21zm2.5 4v16h8v-12h4v12h4v-16z" />
+    </svg>
+  );
+}
+
+export function LucideIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="#F56565" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 2l8 4.5v9L12 22l-8-4.5v-9L12 2z" />
@@ -68,23 +69,28 @@ export function LucideIcon({ className = "h-6 w-6" }: { className?: string }) {
 }
 
 /**
- * AI Kit Official Brand Logo
+ * Inaikode Official Brand Logo
  */
-export function AiKitLogo({ className = "h-5 w-5" }: { className?: string }) {
+export function InaicodeLogo({ className = "h-5 w-5" }: { className?: string }) {
   return (
     <svg
       className={className}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      viewBox="0 0 164 170"
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M15.5 12H8.876" />
-      <path d="m7.274 21.414-4.688-4.688A2 2 0 012 15.312V8.688a2 2 0 01.586-1.414L8.688 2a4.11 4.11 0 008.038.586l4.688 4.688A2 2 0 0122 8.688v6.624a2 2 0 01-.586 1.414l-4.688 4.688" />
-      <path d="M9 13h6.624" />
+      <title>inaikode logo</title>
+      <g
+        transform="translate(-31.512914,181.840672) scale(0.100000,-0.100000)"
+        fill="currentColor"
+        stroke="none"
+      >
+        <path d="M1035 1809 c-320 -41 -544 -221 -621 -499 -29 -102 -26 -348 4 -456 l23 -80 -37 -40 c-21 -21 -49 -64 -63 -94 -22 -47 -26 -69 -26 -155 0 -90 3 -106 29 -159 39 -79 102 -140 184 -179 l67 -32 530 0 530 0 66 31 c127 60 209 173 229 312 33 239 -104 439 -330 482 -29 5 -201 10 -382 10 -360 0 -374 -2 -397 -58 -16 -37 -5 -77 26 -102 25 -19 42 -20 372 -20 263 -1 355 -4 384 -14 100 -36 152 -116 151 -231 -1 -150 -105 -245 -269 -245 -122 0 -446 130 -638 257 -202 133 -297 310 -297 551 1 160 44 282 136 381 62 67 138 111 249 143 113 32 352 32 468 0 109 -30 188 -75 252 -143 64 -70 93 -141 101 -247 8 -110 11 -120 44 -137 42 -22 77 -19 105 10 23 22 25 32 25 117 0 167 -49 289 -159 398 -79 79 -146 119 -266 159 -142 47 -320 61 -490 40z m-265 -1422 c47 -30 105 -65 130 -78 l45 -24 -30 -3 c-16 -2 -84 -2 -150 0 -126 4 -161 14 -213 62 -59 53 -80 160 -46 232 l17 35 81 -85 c47 -48 117 -107 166 -139z" />
+        <path d="M895 1331 c-63 -26 -80 -106 -31 -148 l28 -24 283 3 c257 3 285 5 303 21 27 25 36 64 21 99 -22 55 -43 58 -326 57 -142 0 -267 -4 -278 -8z" />
+      </g>
     </svg>
   );
 }
+
+// Alias for compatibility
+export const AiKitLogo = InaicodeLogo;
